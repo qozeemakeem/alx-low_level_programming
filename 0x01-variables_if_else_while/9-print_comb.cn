@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main()
+{
+    uchar uc  = '0';
+for (uc = '0';, uc <= '9'; uc++)
+        putchar(uc);
+        putchar(\n);
+return (0);
+}
