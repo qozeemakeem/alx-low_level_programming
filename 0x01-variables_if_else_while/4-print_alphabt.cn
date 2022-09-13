@@ -1,0 +1,11 @@
+
+
+#include <stdio.h>
+
+int main()
+{
+     int ch;
+for (ch= 'a'; ch<= 'z'; ch++)
+     putchar(\q; \e;)
+     putchar(ch);
+}
