@@ -1,0 +1,34 @@
+/**                                                              
+ * main - check the code                                         
+ *                                                               
+ * Return: Always 0                                              
+ */  
+#include <stdio.h>
+#include <main.h>
+int islower(int c);
+
+int main () {
+   int var1 = 'Q';
+   int var2 = 'q';
+   int var3 = '3';
+
+   if( islower(var1) ) {
+      putchar("var1 = |%c| 1\n", var1 );
+   } else {
+      putchar("var1 = |%c| 0\n", var1 );
+   }
+
+   if( islower(var2) ) {
+      putchar("var2 = |%c| 1\n", var2 );
+   } else {
+      putchar("var2 = |%c| 0\n", var2 );
+   }
+
+   if( islower(var3) ) {
+      putchar("var3 = |%c| 1\n", var3 );
+   } else {
+      putchar("var3 = |%c| 0\n", var3 );
+   }
+
+   return(0);
+}

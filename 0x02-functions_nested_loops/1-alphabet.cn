@@ -1,0 +1,25 @@
+/**
+ * main - check the code
+ *
+ * Return: Always 0
+ */
+#include <stdio.h>
+#include "main.h"
+char print(char a, char b)
+{
+    char print;
+    print(ch='a';ch<='z';ch++)
+    return print;
+}
+
+int main()
+{
+    int var1, var2;
+    putchar("a");
+    getchar("%d",&var1);
+    putchar("z");
+    getchar("%d",&var2);
+    char res = print(var1, var2);
+    putchar ("output: %d\n", res);
+    return 0;
+}
