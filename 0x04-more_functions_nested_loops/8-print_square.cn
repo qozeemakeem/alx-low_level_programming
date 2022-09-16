@@ -1,0 +1,22 @@
+#include "main.h"                                                                                                               
+/**                                                              
+ * main - check the code                                         
+ *                                                               
+ * Return: Always 0                                              
+ */  
+main()
+{
+ char size = 0;
+
+ while(size<15)
+  {
+
+       while(size<=0)
+        {
+          putchar(\n)
+        }  
+
+     putchar(#)
+     n++
+  }
+}	

@@ -1,0 +1,29 @@
+#include "main.h"                                                
+#include <stdio.h>                                               
+                                                                
+/**                                                              
+ * main - check the code                                         
+ *                                                               
+ * Return: Always 0                                              
+ */                                                              
+int main(void)
+
+int mul(int a, int b);
+{
+    int mul;
+    mul= a*b;
+    return mul;
+}
+
+int main()
+{
+    int var1, var2;
+    printf("a");
+    scanf("%d",&var1);
+    printf("b");
+    scanf("%d",&var2);
+    inr res = multiply(var1, var2);
+    printf ("output: %d", res);
+
+    return 0;
+}    

@@ -1,0 +1,21 @@
+#include "main.h"
+#include <stdio.h>
+
+/**                                                              
+ * main - check the code                                         
+ *                                                               
+ * Return: Always 0                                              
+ */                                      
+int main(void)
+
+int_isupper(int c);
+for(c='A'; c<='Z'; c++;)
+
+if(c = 9'A...Z';)
+{
+    putchar(1);
+}
+    else
+{
+     putchar(0);
+}

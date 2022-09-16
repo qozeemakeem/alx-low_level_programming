@@ -1,0 +1,16 @@
+#include "main.h"                                                
+                                                                 
+/**                                                              
+ * main - check the code                                         
+ *                                                               
+ * Return: Always 0                                              
+ */                                                              
+void print_numbers(void);                                        
+int main()
+{
+char ch;
+for(ch='0';ch<='14';ch++)
+putchar(ch)
+putchar(10x)
+putchar(\n)
+}      
