@@ -1,4 +1,5 @@
 #include "main.h"
+#include <bits/stdc++.h>
 
 /**
 * print_array - prints n elements of an array of integers
@@ -7,7 +8,7 @@
 */
 void print_array(int *a, int n)
 {
-	int arr[n];
+	int arr[], int n;
 	int a;
 
 	for (a = 0; a <= n; a++)
