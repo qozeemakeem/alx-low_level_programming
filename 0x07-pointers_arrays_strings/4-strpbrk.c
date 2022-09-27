@@ -11,9 +11,9 @@ char *_strpbrk(char *s, char *accept)
 {
 	unsigned int i, j;
 
-	for (i = O; s[i]; i++)
+	for (i = 0; s[i]; i++)
 	{
-		for (j = O; accept[j]; j++)
+		for (j = 0; accept[j]; j++)
 		{
 			if (s[i] == accept[j])
 				break;
@@ -21,5 +21,5 @@ char *_strpbrk(char *s, char *accept)
 		if (accept[j])
 			return (s + i);
 	}
-	return (O);
+	return (0);
 }
